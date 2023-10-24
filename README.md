@@ -1,6 +1,7 @@
 # Serverless-Intelligent-Document-Processing
 
-https://github.com/paulkannan/Serverless-Intelligent-Document-Processing/blob/main/img/docidentification.jpg
+![image](https://github.com/paulkannan/Serverless-Intelligent-Document-Processing/assets/46925641/9aac20db-b5dd-4352-990d-4e1669f57438)
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
