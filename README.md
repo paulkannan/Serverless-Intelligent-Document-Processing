@@ -8,6 +8,7 @@ This architecture is designed to provide a serverless, efficient, and automated 
 
 **Workflow**
 
+
 **Image Validation (Amazon Rekognition):**
 Uploaded documents are first checked for the presence of specific elements, such as faces, QR codes, images, and documents.
 If these elements are detected, the document is passed to the next phase, Data Extraction (Textract).
