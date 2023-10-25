@@ -1,6 +1,7 @@
 # Serverless-Intelligent-Document-Processing
 
-![image](https://github.com/paulkannan/Serverless-Intelligent-Document-Processing/assets/46925641/9ef6dd28-4d1e-4b6e-bff5-57c08c53a7ad)
+![image](https://github.com/paulkannan/Serverless-Intelligent-Document-Processing/assets/46925641/3dd2987e-56f2-46d4-b2b8-1c30117909c0)
+
 
 **Overview**
 
