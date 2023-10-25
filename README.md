@@ -78,6 +78,11 @@ At this point you can now synthesize the CloudFormation template for this code.
 ```
 $ cdk synth
 ```
+Yyou can bootstrap the stack.
+
+```
+$ cdk bootstrap
+```
 You can now deploy the CDK Stack
 
 ```
