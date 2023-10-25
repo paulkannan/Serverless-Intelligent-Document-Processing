@@ -28,9 +28,10 @@ A notification is sent to end users via Amazon SNS to inform them about the proc
 The processed data, along with categorization details, is forwarded to Amazon SQS for consumption by end user applications.
 
 **Supported Document Types**
-Input: .jpg, .jpeg, .png
-Output (Valid ID Cards): Any document with high-confidence PII entity types.
-Output (Invalid ID Cards): Documents lacking high-confidence PII entities or failing the Image Validation phase.
+
+**Input:** .jpg, .jpeg, .png
+**Output** (Valid ID Cards): Any document with high-confidence PII entity types.
+**Output** (Invalid ID Cards): Documents lacking high-confidence PII entities or failing the Image Validation phase.
 
 **Usage**
 
