@@ -7,6 +7,7 @@
 This architecture is designed to provide a serverless, efficient, and automated solution for identifying valid Indian ID cards from uploaded documents into S3 but also supports API call through API Gateway. The application supports identification and validation of Aadhaar, Indian Driving License, Indian Passport and Permanent Account Number in .jpg, .jpeg, and .png file formats only. If any other document types are uploaded, they will not be processed and will be moved to invalid docs bucket. The workflow comprises three main phases: Image Validation, Data Extraction, and PII Entity Identification, followed by document categorization into valid and invalid ID cards. A notification is sent to end users through Amazon SNS, and the data is forwarded to Amazon SQS for consumption by end user applications.  
 
 **Workflow**
+
 **Image Validation (Amazon Rekognition):**
 Uploaded documents are first checked for the presence of specific elements, such as faces, QR codes, images, and documents.
 If these elements are detected, the document is passed to the next phase, Data Extraction (Textract).
